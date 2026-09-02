@@ -15,7 +15,7 @@ const areas = [
 
 const nav = [
   { label: "Services", href: "#services" },
-  { label: "Why Us", href: "#why-us" },
+  { label: "Why Us", href: "#about" },
   { label: "Projects", href: "#projects" },
   { label: "Videos", href: "#videos" },
   { label: "Process", href: "#process" },
@@ -30,7 +30,7 @@ export function Footer() {
       <div className="relative mx-auto max-w-7xl px-5 py-16 sm:px-8">
         <div className="grid gap-12 lg:grid-cols-[1.4fr_1fr_1.4fr]">
           <div>
-            <a href="#top" className="flex items-center gap-3">
+            <a href="#home" className="flex items-center gap-3">
               <span className="flex h-10 w-10 items-center justify-center rounded-md border border-[oklch(0.6_0.1_48/0.5)] bg-[oklch(0.28_0.025_50/0.6)] text-[var(--copper)]">
                 <Home className="h-5 w-5" />
               </span>
